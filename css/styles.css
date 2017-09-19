@@ -1,0 +1,61 @@
+/*Color Palette
+Lighter: #70FDE9
+Light: #5BC0BE
+Dark: #003459
+Darker: #001820
+*/
+
+body{
+  background-color:  #001820;
+  text-align: center;
+  margin-top: 80px;
+  color:  #ffffff;
+}
+
+h1{
+  font-size:  2.5em;
+}
+
+.time{
+  font-size:  2em;
+}
+
+
+/*
+@import url(http://fonts.googleapis.com/css?family=Nunito:300&text=:);
+html { height: 100%; }
+body {
+  min-height: 100%; margin: 0;
+  background: rgb(0,122,255); color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#currtime {
+  font-family: Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+  font-weight: 100;
+  display: block;
+  text-align: center;
+  font-size: 12vw;
+  padding: 4rem 0;
+}
+#currtime span {
+  display: inline-block;
+  font-family: Avenir Next, Nunito, sans-serif;
+  font-weight: 100;
+  font-size: 8vw;
+  position: relative;
+  top: -2vw;
+}
+@media all and (max-width: 600px) {
+  #currtime {
+    font-size: 4rem;
+    padding: 2rem 0;
+  }
+}
+@media all and (max-width: 350px) {
+  #currtime { font-size: 3rem; padding: 2rem 0; }
+}
+*/
+
+
