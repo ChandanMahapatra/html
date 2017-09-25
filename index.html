@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RPI Website</title>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+      <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-
-    <h1>Harish Sucks !</h1>
-
+  <div class="row">
+  <h1>Weather by Chandan</h1>
+</div>
+<div class="row">
+   <div>
+  <input id="inputBox" type="text" name="cityName" value="Enter City Name"/>
+   </div> 
+  <button id = "getIt" onclick="getData()">Get Weather</button>
+  <button id = "tempTypeC" onclick = "getTempC()">°C</button>
+  <button id = "tempTypeF" onclick = "getTempF()">°F</button>
+  <div id="data"></div>
+<div id="city"></div>
+</div>
+  <script src="js/jquery.min.js"></script>
+  <script  src="js/index.js"></script>
 </body>
-
 </html>
